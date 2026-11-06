@@ -1,0 +1,16 @@
+File,Column(s),Type,Notes
+requests_YYYY_MM.csv,Request_ID,text,Unique per request. About 0.5% duplicated -> remove duplicates
+requests_YYYY_MM.csv,"Request_DateTime, Arrival_DateTime",text,ISO 'yyyy-MM-dd HH:mm:ss' in most files; every 4th file is US text 'MM/dd/yyyy hh:mm AM/PM'
+requests_YYYY_MM.csv,City,text,"Messy spellings -> Trim + lowercase, merge with name_mapping (Field = City)"
+requests_YYYY_MM.csv,Service_Type,text,Case / whitespace -> Trim + Proper
+requests_YYYY_MM.csv,Contact_Channel,text,"Phone / App / Web in many spellings; ~1% blank -> merge with name_mapping (Field = Channel), blank = Unknown"
+requests_YYYY_MM.csv,Target_Minutes,int,Zone response target: 45 / 50 / 60 / 90
+requests_YYYY_MM.csv,Status,text,Completed / Pending / Cancelled. Cancelled rows have no arrival time -> filter out
+requests_YYYY_MM.csv,Satisfaction_Score,1-5 or blank,About 25% of requests are rated
+requests_YYYY_MM.csv,Battery_Replaced,0/1,Ties to the published battery replacements
+requests_YYYY_MM.csv,(derive in Power Query),,"Response_Minutes, Met_Target, Overshoot_Min, Request_Date, Day_Name, Day_Sort, Hour_Block, Hour_Block_Sort; keep only Response_Minutes >= 0; keys Geo_ID, Service_Type_ID, Channel_ID via merges"
+dim_location.csv,"Geo_ID, City, Zone, Latitude, Longitude, Zone_Target_Min",,10 Manitoba cities. Hierarchy Zone -> City
+dim_service_type.csv,"Service_Type_ID, Service_Name",,5 service types
+dim_channel.csv,"Channel_ID, Channel_Name",,"Phone, App, Web, Unknown"
+name_mapping.csv,"Field, Raw_Value, Match_Key, Standard_Value",,Filter Field = City or Channel before merging; match on lowercase trimmed text
+targets.json,"attainment_target_pct, zone_target_minutes, annual_report_2024",,Parse with Json.Document; used for target lines and the Model vs Published table

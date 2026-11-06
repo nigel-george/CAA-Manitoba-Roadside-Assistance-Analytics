@@ -1,0 +1,32 @@
+Field,Raw_Value,Match_Key,Standard_Value
+Channel,App,app,App
+Channel,CAA App,caa app,App
+Channel,Mobile app ,mobile app,App
+Channel,Call,call,Phone
+Channel,Call Centre,call centre,Phone
+Channel,Phone ,phone,Phone
+Channel,Telephone,telephone,Phone
+Channel,Online,online,Web
+Channel,WEB,web,Web
+Channel,Website,website,Web
+City,BRANDON,brandon,Brandon
+City,"Brandon, MB","brandon, mb",Brandon
+City,dauphin,dauphin,Dauphin
+City,Flin Flon,flin flon,Flin Flon
+City,Flin-Flon,flin-flon,Flin Flon
+City,FlinFlon,flinflon,Flin Flon
+City,Portage,portage,Portage la Prairie
+City,portage la prairie ,portage la prairie,Portage la Prairie
+City,selkirk,selkirk,Selkirk
+City,"Selkirk, MB","selkirk, mb",Selkirk
+City,Steinbach,steinbach,Steinbach
+City,"Steinbach, MB","steinbach, mb",Steinbach
+City,the pas,the pas,The Pas
+City,thompson,thompson,Thompson
+City,"Thompson, MB","thompson, mb",Thompson
+City,Winkler,winkler,Winkler-Morden
+City,Winkler-Morden,winkler-morden,Winkler-Morden
+City,Winkler/Morden,winkler/morden,Winkler-Morden
+City,winnipeg,winnipeg,Winnipeg
+City,"Winnipeg, MB","winnipeg, mb",Winnipeg
+City,Wpg,wpg,Winnipeg

@@ -1,0 +1,18 @@
+{
+  "attainment_target_pct": 0.9,
+  "data_end_date": "2026-10-17",
+  "zone_target_minutes": {
+    "Urban": 45,
+    "Suburban": 50,
+    "Rural": 60,
+    "Remote": 90
+  },
+  "annual_report_2024": {
+    "source": "CAA 2024 annual report (figures as provided)",
+    "scope": "Manitoba",
+    "rescues": 111973,
+    "tire_changes": 11253,
+    "battery_replacements": 3828
+  },
+  "note": "Concept demo - 2025 and 2026 are simulated; contact channel is an assumption."
+}

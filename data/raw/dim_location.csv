@@ -1,0 +1,11 @@
+Geo_ID,City,Zone,Latitude,Longitude,Zone_Target_Min
+1,Winnipeg,Urban,49.8951,-97.1384,45
+2,Selkirk,Suburban,50.1436,-96.8836,50
+3,Steinbach,Suburban,49.5258,-96.6835,50
+4,Portage la Prairie,Rural,49.9728,-98.2913,60
+5,Winkler-Morden,Rural,49.1828,-97.9454,60
+6,Brandon,Rural,49.8486,-99.9501,60
+7,Dauphin,Rural,51.1495,-100.0502,60
+8,Thompson,Remote,55.7435,-97.8558,90
+9,Flin Flon,Remote,54.7658,-101.8763,90
+10,The Pas,Remote,53.8251,-101.2532,90

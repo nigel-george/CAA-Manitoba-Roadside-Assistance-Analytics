@@ -1,0 +1,34 @@
+Check,Target,Actual,Tolerance,Status
+2024 rescues (exact),111973.0,111973.0,0.0,PASS
+2024 tire changes (exact),11253.0,11253.0,0.0,PASS
+2024 battery replacements (exact),3828.0,3828.0,0.0,PASS
+2024 tire share of rescues %,10.05,10.0497,0.1,PASS
+2025 rescues,116700.0,116700.0,600.0,PASS
+2026 YTD rescues,99000.0,99000.0,600.0,PASS
+2025 same-window rescues,93000.0,93037.0,700.0,PASS
+Request growth YoY % (YTD window),6.4,6.4093,0.7,PASS
+Winnipeg share of requests %,61.8,62.0343,1.5,PASS
+Target attainment 2026 YTD %,91.6,91.7616,0.5,PASS
+Attainment change vs same window (pts),0.9,1.6211,0.7,FAIL
+Attainment: Winnipeg %,94.0,94.4117,0.7,PASS
+Attainment: Remote zone %,77.8,77.2193,1.5,PASS
+Attainment: Thompson %,75.5,75.4052,2.5,PASS
+Attainment: Towing %,89.6,89.8181,0.8,PASS
+Towing is the only service below 90%,1.0,1.0,0.0,PASS
+Avg response (min),32.0,32.5325,2.0,PASS
+P90 response (min),55.0,55.0,5.0,PASS
+Avg satisfaction (1-5),4.5,4.5121,0.12,PASS
+Avg satisfaction: Remote,4.1,3.9689,0.2,PASS
+Satisfaction vs response correlation (<0),1.0,1.0,0.0,PASS
+Requests 2026 YTD: Towing (K),43.5,42.87,2.0,PASS
+Requests 2026 YTD: Battery (K),29.7,30.548,2.0,PASS
+Requests 2026 YTD: Lockout (K),10.9,10.629,2.0,PASS
+Requests 2026 YTD: Flat Tire (K),9.9,9.989,2.0,PASS
+Requests 2026 YTD: Fuel (K),5.0,4.964,2.0,PASS
+App share Jan 2024 %,28.0,27.855,2.5,PASS
+App share 2026 YTD %,42.0,41.998,2.5,PASS
+Unknown channel % (2026 YTD),1.0,1.0414,0.4,PASS
+Remote phone share %,72.0,71.9023,4.0,PASS
+Urban app share %,48.0,47.5608,3.0,PASS
+Response gap phone - app (min),5.5,9.2337,2.5,FAIL
+Satisfaction gap app - phone,0.2,0.2791,0.12,PASS
